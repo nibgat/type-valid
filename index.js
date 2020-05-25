@@ -1,4 +1,4 @@
-import validator from 'validator';
+var validator = require("validator");
 
 const isEmptyString = ({ param, name, ERROR_TYPES }) => {
     let resolve = false;
