@@ -7,7 +7,7 @@ import {
     isMD5,
     isUserName,
     isPhone
-} from '@types/type-valid';
+} from './types';
 
 const ERROR_TYPES = {
     mail: " parametresi Mail şartını sağlamadı. Lütfen bir mail gönderdiğinizden emin olunuz. Örn. example@mail.com",
