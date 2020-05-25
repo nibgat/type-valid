@@ -1,0 +1,29 @@
+{
+  "name": "type-valid",
+  "version": "1.0.3",
+  "description": "NİBGAT® | Topluluğu ile geliştirilen veri tipi kontrol mekanizması.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "validator": "12.2.0"
+  },
+  "repository": {
+    "url": "https://github.com/nibgat/type-valid.git",
+    "type": "git"
+  },
+  "keywords": [
+    "validate.js",
+    "validator.js",
+    "valid.js",
+    "validate",
+    "validator",
+    "valid",
+    "js",
+    "javascript",
+    "nibgat"
+  ],
+  "author": "nibgat",
+  "license": "ISC"
+}
