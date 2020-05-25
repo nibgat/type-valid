@@ -115,7 +115,7 @@ export const length = ({ param, name, configs, ERROR_TYPES }) => {
     };
 };
 
-export const mailValidation = ({ param, name, ERROR_TYPES }) => {
+export const mail = ({ param, name, ERROR_TYPES }) => {
     let resolve = false;
     let error = null;
     if(Array.isArray(param)) {
@@ -137,7 +137,7 @@ export const mailValidation = ({ param, name, ERROR_TYPES }) => {
     };
 };
 
-export const uuidValidation = ({ param, name, ERROR_TYPES }) => {
+export const uuid = ({ param, name, ERROR_TYPES }) => {
     let resolve = false;
     let error = null;
     if(Array.isArray(param)) {
