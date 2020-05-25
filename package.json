@@ -1,6 +1,6 @@
 {
   "name": "type-valid",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "NİBGAT® | Topluluğu ile geliştirilen veri tipi kontrol mekanizması.",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,9 @@
     "nibgat"
   ],
   "author": "nibgat",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
 }
