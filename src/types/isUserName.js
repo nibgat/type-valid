@@ -12,7 +12,7 @@ const isUserName = ({ param, name, ERROR_TYPES }) => {
         resolve = subResolve;
         if(!resolve) error = name + ERROR_TYPES["isUserNameArray"];
     } else {
-        resolve = userNameRegex.test(param);
+        resolve = USER_NAMEREGEX.test(param);
         if(!resolve) error = name + ERROR_TYPES["isUserName"];
     }
     return {
