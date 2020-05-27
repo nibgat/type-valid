@@ -1,8 +1,8 @@
 {
   "name": "type-valid",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "NİBGAT® | Topluluğu ile geliştirilen veri tipi kontrol mekanizması.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "babel-node": "babel-node --presets=latest",
     "start": "nodemon --exec npm run babel-node -- ./src/index.js",
