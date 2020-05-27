@@ -1,6 +1,6 @@
 {
   "name": "type-valid",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "NİBGAT® | Topluluğu ile geliştirilen veri tipi kontrol mekanizması.",
   "main": "dist/index.js",
   "scripts": {
