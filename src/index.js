@@ -1,13 +1,13 @@
-import isEmptyString from './src/types/isEmptyString';
-import isHexColor from './src/types/isHexColor';
-import isUserName from './src/types/isUserName';
-import isLength from './src/types/isLength';
-import isPhone from './src/types/isPhone';
-import isUUID from './src/types/isUUID';
-import isMail from './src/types/isMail';
-import isMD5 from './src/types/isMD5';
+import isEmptyString from './types/isEmptyString';
+import isHexColor from './types/isHexColor';
+import isUserName from './types/isUserName';
+import isLength from './types/isLength';
+import isPhone from './types/isPhone';
+import isUUID from './types/isUUID';
+import isMail from './types/isMail';
+import isMD5 from './types/isMD5';
 
-import ERROR_TYPES from './src/config/error';
+import ERROR_TYPES from './config/error';
 
 const validationSwitch = ({ name, param, type, configs }) => {
     let resolve = false;
