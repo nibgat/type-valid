@@ -1,0 +1,39 @@
+{
+  "name": "type-valid",
+  "version": "1.0.17",
+  "description": "NİBGAT® | Topluluğu ile geliştirilen veri tipi kontrol mekanizması.",
+  "main": "dist/index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=latest",
+    "start": "nodemon --exec npm run babel-node -- ./src/index.js",
+    "build": "babel src -d dist"
+  },
+  "dependencies": {
+    "validator": "12.2.0"
+  },
+  "repository": {
+    "url": "https://github.com/nibgat/type-valid.git",
+    "type": "git"
+  },
+  "keywords": [
+    "validate.js",
+    "validator.js",
+    "valid.js",
+    "validate",
+    "validator",
+    "valid",
+    "js",
+    "javascript",
+    "nibgat"
+  ],
+  "author": "nibgat",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "nodemon": "2.0.4"
+  }
+}
